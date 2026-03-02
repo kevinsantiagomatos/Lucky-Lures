@@ -1,31 +1,78 @@
-# Phase-1-Template
-Template for phase 1 of the Databases course and document for installation of the tools utilized
+**Lucky Lures – Full-Stack E-Commerce Web App**
 
-In here, you will find a template structure for the organization and view of your project. You will also find under folder "Greeny" the original HTML template utilized.
+Lucky Lures is a full-stack e-commerce web application built with Flask that simulates an online fishing lure store. The project demonstrates backend architecture, MVC organization, authentication, and database integration.
 
-The students are encouraged to ask the TA any questions regarding the use of this template. The students must also develop their unique eCommerce site themes and products. Feel free to alter the design of the page to your taste.
-
-There is a missing folder named 'venv' that should be created when you install and activate Flask into the project.
-
-Similarly, .idea and __pycache__ are nonessential folders for the students to copy.
+This application was developed as part of a database-driven web systems project.
 
 
-**************
-LOGIN INFO:
+**Features**
 
-main.py (frontend)
+Customer Side
+	•	User registration and login
+	•	Browse products
+	•	Product search with autocomplete
+	•	Add to cart
+	•	Checkout system
+	•	Order history
+	•	Profile management
 
-javier.quinones3@upr.edu
-
-pass1234
-
-
-admin.py (backend)
-
-javier@gmail.com
-
-pass1234
-***************
+Admin Side
+	•	Secure admin login
+	•	Product management (add/edit/delete)
+	•	View customer orders
+	•	Manage store inventory
 
 
-The students should adjust these to fit their convenience. Keep in mind any code that might have to be altered when changing these.
+**Tech Stack**
+Backend
+	•	Python
+	•	Flask
+	•	SQL (relational database)
+
+Frontend
+	•	HTML5
+	•	CSS3
+	•	JavaScript
+	•	Bootstrap-based template (customized)
+
+Architecture
+	•	MVC-style structure
+	•	Controllers separated from models
+	•	Organized backend and frontend modules
+
+
+
+**Installation & Setup**
+
+	1.	Clone the repository:
+
+git clone https://github.com/yourusername/Lucky-Lures.git
+cd Lucky-Lures
+
+	2.	Create and activate a virtual environment:
+
+python -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
+
+	3.	Install dependencies:
+
+pip install -r requirements.txt
+
+	4.	Set up the database (import SQL files inside /sql folder).
+	5.	Run the app:
+
+python main.py
+
+Admin panel:
+
+python admin.py
+
+
+
+
+**Author**
+
+Kevin Santiago
+Computer Science Student
+University of Puerto Rico
